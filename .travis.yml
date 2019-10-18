@@ -10,7 +10,7 @@ deploy:
   skip_cleanup: true
   script: hack/docker-push.sh
   on:
-    repo: vmware-tanzu/velero-plugin-for-aws
+    repo: prydonius/velero-plugin-for-aws
     all_branches: true
 env:
   global:
